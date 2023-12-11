@@ -9,27 +9,27 @@ export default function Home()
          return (
                   <>
                   
-                  <section className="mt-20 w-full min-h-[90vh] bg-slate-50 ">
-                 <div className="mt-5 mx-auto w-[90vw] rounded-lg bg-slate-900 grid lg:grid-cols-2 gap-5">
-                  <div className="bg-slate-50 sm:w-full">
-                           <div className="flex flex-col">
-                                    <h1 className="mt-2 text-center text-4xl font-bold font-serif">  Hostello H.M.S Software Made Simple !</h1>
-                                    <p className="font-thin leading-8 text-2xl font-sans"> A Comprehensive, Integrated System designed to simplify and optimize the 
-administrative and operational tasks involved in running a hoste</p>
-                                    <button className='mt-7 bg-red-700 w-[25vw] mx-auto font-bold rounded-sm text-white text-center'>Take free Demo -{'>'}</button>
+                  <section className="mt-2 w-full  bg-slate-300 ">
+                 <div className="  mx-auto my-auto w-[90vw] h-[70vh] bg-white rounded-lg grid lg:grid-cols-2 gap-0">
+                  <div className="border pt-5 h-[70vh] bg-white flex sm:w-full">
+                           <div className="border-red-300 flex flex-col justify-start gap-6">
+                                    <h1 className=" text-center text-4xl font-bold font-serif">  Hostello H.M.S Software Made Simple !</h1>
+                                    <p className="font-thin px-3 leading-8 text-xl font-sans"> A Comprehensive, Integrated System designed to simplify and optimize the 
+administrative and operational tasks involved in running a hostel</p>
+                                    <button className=' px-[2rem] align-middle mx-auto bg-red-700 font-bold rounded-sm text-white text-center sm:w-[20vw] lg:px-7 sm:mx-0'>Take free Demo -{'>'}</button>
                            </div>
                   
      </div>      
-                  <div className=" bg-slate-50">
-                  <div className="bg-slate-50 rounded  basis-[55%] lg:w-[50%] h-[70vh]">
-        <img src="https://media.istockphoto.com/id/1373119986/vector/worker-make-analysis.jpg?s=612x612&w=0&k=20&c=tnlELE2IPole3hn0wIfkgQ_T-oR4HLEjw9g_gD8vku4=" className="py-[10vh] w-[40vw] h-[70vh] rounded-full bg-slate-50 " alt="Hostel Image" />
+                  <div className="  basis-[45%] ">
+                  <div className="bg-slate-50  ">
+        <img src="hero.png" className="py-[10vh]  h-[70vh] rounded-sm bg-white w-full " alt="Hostel Image" />
       </div>
                   </div>
                  </div>
                 </section>
                 
                 <section className="w-full min-h-[90vh] bg-slate-50 mt-0">
-                <div class="w-full md:mx-auto bg-indigo-500 md:h-[50vh] sm:bg-orange-100 rounded-xl shadow-md overflow-hidden md:w-full">
+                {/* <div class="w-full md:mx-auto bg-indigo-500 md:h-[50vh] sm:bg-orange-100 rounded-xl shadow-md overflow-hidden md:w-full">
   <div class="md:flex">
     <div class="">
       <img class="h-[49vh] w-full object-cover md:h-full md:w-[40vw]" src="/hosteldash.png" alt="Modern building architecture"/>
@@ -54,7 +54,7 @@ administrative and operational tasks involved in running a hoste</p>
     </div>
   </div>
 </div>
-</div>
+</div> */}
                 </section>
                 <section className="bg-slat-50 mt-5">
                 <div className="container py-10 grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">

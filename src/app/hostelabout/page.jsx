@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ImgSlider from '@/Component/ImgSlider'
 const page = () => {
   return (
          <>
@@ -15,7 +15,7 @@ const page = () => {
                   <div className="bg-slate-50">
                   <div className="flex flex-col text-center align-middle sm:mx-auto">
                            <img src="https://www.petpooja.com/assets/images/pricing/24_7.webp" className="px-12 h-[30vh]"/>
-                           <span className='text-red-500 text-3xl font-bold' >24/7</span><p className="text-slate-900 font-semibold ">Customer Support</p>
+                           <span className='text-red-500 text-3xl font-bold' >24/7</span><p className="text-slate-900 font-semibold ">Customer Support</p> 
                   </div>
                   </div>
                   <div className="bg-slate-50 ">
@@ -36,11 +36,11 @@ const page = () => {
          
     </section>
     <section className="mt-10">
-         <div className="mx-auto w-[95vw] h-[70vh] bg-orange-500">
+         <div className=" mx-auto w-[95vw] min-h-[70vh] bg-orange-500">
                   <div className=" bg-slate-500 w-[90vw] h-45"></div>
          </div>
          </section>
-    <section className="mt-5">
+    <section className="sm:mt-72">
          <div className="mx-auto w-[80vw] h-[90vh] bg-slate-100 grid lg:grid-cols-4 md:grid-cols-2 gap-2">
                   <div className="bg-green-200 col-span-4">1</div>
                   <div className="bg-red-200 col-span-2">2</div>
@@ -56,6 +56,11 @@ const page = () => {
     </section>
     <section className="mt-5">
          <div className="w-full mx-auto bg-red-200 h-40 "></div>
+    </section>
+    <section className="mt-2">
+     <div className=" flex justify-center items-center h-screen">
+          <ImgSlider/>
+     </div>
     </section>
     </>
   )

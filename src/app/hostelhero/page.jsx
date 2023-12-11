@@ -8,10 +8,10 @@ const page = () => {
   return (
          <>
          
-<section className="w-full min-h-[90vh] bg-slate-50 mt-5">
-  <div className="py-10 mt-9 mx-auto w-full lg:w-[90vw] h-auto lg:h-[70vh] rounded">
+<section className="w-full h-[90vh] bg-slate-50 mt-10">
+  <div className="pt-15 mt-12 mx-auto w-full lg:w-[90vw] h-[90vh] lg:h-[90vh] rounded">
     <div className="flex flex-col lg:flex-row gap-8 basis-[45%] rounded-xl">
-      <div className="bg-slate-50 w-full top-10 lg:w-[50%] h-auto lg:h-[70vh] px-3 flex flex-col gap-7 space-y-6 lg:space-y-0 lg:space-x-6 justify-start">
+      <div className="bg-slate-50 w-full  lg:w-[50%] h-auto lg:h-[70vh] px-3 flex flex-col gap-7 space-y-6 lg:space-y-0 lg:space-x-6 justify-start">
        
         <h1 className="font-serif mt-[4rem] text-[3vw] lg:text-4xl xl:text-2xl line-clamp-5 sm:text-4xl font-bold mx-auto">
           Hostello H.M.S Software Made Simple !

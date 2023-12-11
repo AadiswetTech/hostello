@@ -1,8 +1,16 @@
+
 import type { Metadata } from 'next'
 
 import './globals.css'
 import HostelHead from './hostelheader/page'
+import Navbar from './Navbar/Navbar'
+import { Open_Sans } from 'next/font/google'
 
+//👇 Configure our font object
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 
 export const metadata: Metadata = {
@@ -16,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={openSans.className}>
       <body suppressHydrationWarning>
-        <HostelHead/>
+        <Navbar/>
         
         {children}</body>
     </html>

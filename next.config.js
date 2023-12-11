@@ -3,7 +3,18 @@ const nextConfig = {}
 
 module.exports = {
          images: {
-           domains: ['images.unsplash.com'],
-           domains:['istockphoto.com']
-         },
-       };
+         
+          
+            remotePatterns:[
+              {
+                protocol:"https",
+                hostname:"images.pexels.com"
+               
+                
+
+              }
+            ]
+          }
+          
+         }
+        //  domains: ['images.unsplash.com'],
