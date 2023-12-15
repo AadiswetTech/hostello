@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -31,3 +34,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 } */
+h2 {
+  font-family: 'PT Serif', serif;
+}

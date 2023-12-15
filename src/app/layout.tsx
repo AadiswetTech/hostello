@@ -2,7 +2,7 @@
 import type { Metadata } from 'next'
 
 import './globals.css'
-import HostelHead from './hostelheader/page'
+
 import Navbar from './Navbar/Navbar'
 import { Open_Sans } from 'next/font/google'
 
